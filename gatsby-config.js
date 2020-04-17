@@ -2,7 +2,6 @@
 require('dotenv').config({
   //for local development 
  //  path:`.env.development`
-
   path:`.env.${process.env.NODE_ENV}`
 
 })
