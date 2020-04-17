@@ -10,7 +10,7 @@ import CourseCart from "../components/cart/courseCart";
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
-    <HeroSection title="hero" subtitle="ironman" class1="hero-background" img={data.img.childImageSharp.fluid}/>
+    <HeroSection title="Working In progress" subtitle="....will back" class1="hero-background" img={data.img.childImageSharp.fluid}/>
     <Infoblock heading="About Us"/>
     <CourseCart courses={data.mycourses}/>
   </Layout>

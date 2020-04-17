@@ -19,7 +19,7 @@ class Navbar extends Component {
     }
 
     render() {
-        const {navbarClass,navbarState} = this.state;
+        const {navbarClass} = this.state;
         return (
            <nav className="navbar navbar-expand-sm bg-them text-white">
                 <Link to ="/" className="navbar-brand ml-5">
