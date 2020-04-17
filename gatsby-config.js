@@ -1,9 +1,9 @@
 
 require('dotenv').config({
   //for local development 
-  path:`.env.development`
+ //  path:`.env.development`
 
-  //  path:`.env.${process.env.NODE_ENV}`
+  path:`.env.${process.env.NODE_ENV}`
 
 })
 
@@ -48,7 +48,7 @@ module.exports = {
     {
 			resolve: 'gatsby-plugin-snipcart',
 			options: {
-        apiKey: process.env.SNIPCART_KEY
+        apiKey: process.env.SNIPCART_KEY,
         autopop:true
 			}
 		}

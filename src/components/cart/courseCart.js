@@ -39,12 +39,12 @@ class courseCart extends Component {
                                 </Card.Meta>
                             
                                  </Card.Content>    
-                                 <button className="btn btn-warning btn-long"
+                                 <button className="btn btn-warning btn-long snipcart-add-item"
                                   data-item-id ={node.id}
                                   data-item-title ={node.title}
                                   data-item-price ={node.price}
                                   data-item-catagory={node.catagory}
-                                  data-item-url="https://learncodeonline.in"
+                                  data-item-url="https://courses.learncodeonline.in"
                                   data-item-discription={node.discription.discription}
                                  >Join Now</button>
                                  
