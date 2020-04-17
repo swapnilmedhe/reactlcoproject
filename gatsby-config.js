@@ -2,7 +2,7 @@
 require('dotenv').config({
   //for local development 
  //  path:`.env.development`
-  path:`.env.${process.env.NODE_ENV}`
+path: `.env.${process.env.NODE_ENV}`
 
 })
 
@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/contact.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -42,7 +42,7 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
-      },
+      }
     },
     {
 			resolve: 'gatsby-plugin-snipcart',
