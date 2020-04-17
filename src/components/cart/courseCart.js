@@ -45,7 +45,7 @@ class courseCart extends Component {
                                   data-item-price ={node.price}
                                   data-item-catagory={node.catagory}
                                   data-item-url="https://swapnilme.netlify.app/"
-                                  data-item-discription={node.discription.discription}
+                                //data-item-discription={node.discription.discription}
                                  >Join Now</button>
                                  
                              </Card>
